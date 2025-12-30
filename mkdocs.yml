@@ -5,3 +5,4 @@ nav:
   - 'Database Schema': db-schema.md
   - 'API Reference': api.md
   - 'Docker Setup': docker.md
+  - 'Security & Audit': security.md
