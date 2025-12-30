@@ -1,0 +1,7 @@
+site_name: MicroAccount Developer Docs
+theme: material
+nav:
+  - 'Architecture': index.md
+  - 'Database Schema': db-schema.md
+  - 'API Reference': api.md
+  - 'Docker Setup': docker.md
