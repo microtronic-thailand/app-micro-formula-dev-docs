@@ -9,26 +9,28 @@
       
       
       
+        <link rel="prev" href="../db-schema/">
       
-        <link rel="next" href="db-schema/">
+      
+        <link rel="next" href="../docker/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>MicroAccount Developer Docs</title>
+        <title>API Reference - MicroAccount Developer Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -47,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#microaccount-developer-documentation" class="md-skip">
+        <a href="#api-reference-data-services" class="md-skip">
           Skip to content
         </a>
       
@@ -86,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="MicroAccount Developer Docs" class="md-header__button md-logo" aria-label="MicroAccount Developer Docs" data-md-component="logo">
+    <a href=".." title="MicroAccount Developer Docs" class="md-header__button md-logo" aria-label="MicroAccount Developer Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Architecture
+              API Reference
             
           </span>
         </div>
@@ -205,11 +207,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
         
   
   
@@ -228,7 +228,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="db-schema/" class="md-tabs__link">
+      <a href="../db-schema/" class="md-tabs__link">
         
   
   
@@ -245,9 +245,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="api/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -266,7 +268,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="docker/" class="md-tabs__link">
+      <a href="../docker/" class="md-tabs__link">
         
   
   
@@ -285,7 +287,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="security/" class="md-tabs__link">
+      <a href="../security/" class="md-tabs__link">
         
   
   
@@ -320,7 +322,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="MicroAccount Developer Docs" class="md-nav__button md-logo" aria-label="MicroAccount Developer Docs" data-md-component="logo">
+    <a href=".." title="MicroAccount Developer Docs" class="md-nav__button md-logo" aria-label="MicroAccount Developer Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -330,6 +332,60 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../db-schema/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Database Schema
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
     
       
       
@@ -354,7 +410,7 @@
   <span class="md-ellipsis">
     
   
-    Architecture
+    API Reference
   
 
     
@@ -365,14 +421,14 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Architecture
+    API Reference
   
 
     
@@ -398,10 +454,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tech-stack" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tech Stack
+        สถาปัตยกรรม
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="สถาปัตยกรรม">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. การจัดการโปรไฟล์ (Profiles)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. การจัดการลูกค้า (Customers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. การจัดการสินค้าและสต็อก (Products)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. การจัดการเอกสาร (Documents)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-tax-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. ระบบรายงานและภาษี (Tax &amp; Reports)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        รูปแบบการเรียกใช้งาน (Example)
       
     </span>
   </a>
@@ -409,10 +537,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#mock-data-implementation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        โครงสร้างโปรเจกต์
+        Mock Data Implementation
       
     </span>
   </a>
@@ -434,61 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="db-schema/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Database Schema
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="api/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    API Reference
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="docker/" class="md-nav__link">
+      <a href="../docker/" class="md-nav__link">
         
   
   
@@ -515,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="security/" class="md-nav__link">
+      <a href="../security/" class="md-nav__link">
         
   
   
@@ -562,10 +636,82 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tech-stack" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tech Stack
+        สถาปัตยกรรม
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="สถาปัตยกรรม">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-profiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. การจัดการโปรไฟล์ (Profiles)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. การจัดการลูกค้า (Customers)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. การจัดการสินค้าและสต็อก (Products)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. การจัดการเอกสาร (Documents)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-tax-reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. ระบบรายงานและภาษี (Tax &amp; Reports)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        รูปแบบการเรียกใช้งาน (Example)
       
     </span>
   </a>
@@ -573,10 +719,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#mock-data-implementation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        โครงสร้างโปรเจกต์
+        Mock Data Implementation
       
     </span>
   </a>
@@ -600,17 +746,51 @@
 
 
 
-<h1 id="microaccount-developer-documentation">MicroAccount Developer Documentation</h1>
-<p>คู่มือสำหรับนักพัฒนาในการจัดการและพัฒนาต่อยอดระบบ MicroAccount</p>
-<h2 id="tech-stack">Tech Stack</h2>
+<h1 id="api-reference-data-services">API Reference (Data Services)</h1>
+<p>ระบบใช้ <code>data-service.ts</code> เป็นเลเยอร์กลางในการจัดการข้อมูลทั้งหมด โดยรองรับทั้งการเรียกผ่าน API จริง และการสลับไปใช้ <strong>Mock Data</strong> ในโหมด Demo</p>
+<h2 id="_1">สถาปัตยกรรม</h2>
+<p>ฟังก์ชันใน Data Service จะถูกเรียกใช้งานจากฝั่ง Client (React Components/Hooks) โดยมีการตรวจสอบสถานะ <code>isDemoMode()</code> ก่อนดำเนินการเสมอ</p>
+<h3 id="1-profiles">1. การจัดการโปรไฟล์ (Profiles)</h3>
 <ul>
-<li><strong>Frontend</strong>: Next.js 15 (App Router)</li>
-<li><strong>Styling</strong>: Tailwind CSS &amp; Shadcn UI</li>
-<li><strong>Database</strong>: PostgreSQL (Local Docker / Supabase)</li>
-<li><strong>Language</strong>: TypeScript</li>
+<li><code>getProfile(id)</code>: ดึงข้อมูลโปรไฟล์ผู้ใช้งาน</li>
+<li><code>getAllProfiles()</code>: ดึงข้อมูลโปรไฟล์ทั้งหมด (เฉพาะ Admin)</li>
+<li><code>updateUserRole(userId, role)</code>: เปลี่ยนสิทธิ์การเข้าถึง</li>
 </ul>
-<h2 id="_1">โครงสร้างโปรเจกต์</h2>
-<p>ระบบถูกออกแบบให้เป็น Modular เพื่อการพัฒนาที่ยืดหยุ่นและการซิงค์ข้อมูลแบบ Off-line First</p>
+<h3 id="2-customers">2. การจัดการลูกค้า (Customers)</h3>
+<ul>
+<li><code>getCustomers()</code>: ดึงรายชื่อลูกค้าทั้งหมด</li>
+<li><code>createCustomer(data)</code>: เพิ่มข้อมูลลูกค้าใหม่</li>
+<li><code>updateCustomer(id, data)</code>: แก้ไขข้อมูลลูกค้า</li>
+</ul>
+<h3 id="3-products">3. การจัดการสินค้าและสต็อก (Products)</h3>
+<ul>
+<li><code>getProducts()</code>: ดึงรายชื่อสินค้าและจำนวนสต็อก</li>
+<li><code>updateStock(productId, delta)</code>: ปรับปรุงจำนวนสต็อกแบบ Atomic (ผ่าน RPC)</li>
+</ul>
+<h3 id="4-documents">4. การจัดการเอกสาร (Documents)</h3>
+<ul>
+<li><code>getQuotations()</code> / <code>getInvoices()</code>: ดึงรายการเอกสาร</li>
+<li><code>createQuotation(data)</code> / <code>createInvoice(data)</code>: สร้างเอกสารใหม่พร้อมรายการคำนวณภาษี</li>
+</ul>
+<h3 id="5-tax-reports">5. ระบบรายงานและภาษี (Tax &amp; Reports)</h3>
+<ul>
+<li><code>getTaxReport(month, year)</code>: คำนวณสรุปยอดซื้อ-ขาย และภาษีมูลค่าเพิ่มสำหรับยื่น ภ.พ.30</li>
+</ul>
+<hr />
+<h2 id="example">รูปแบบการเรียกใช้งาน (Example)</h2>
+<pre><code class="language-typescript">import { getInvoices } from '@/lib/data-service';
+
+async function fetchData() {
+    try {
+        const invoices = await getInvoices();
+        console.log(invoices);
+    } catch (error) {
+        console.error(&quot;Failed to load invoices&quot;);
+    }
+}
+</code></pre>
+<h2 id="mock-data-implementation">Mock Data Implementation</h2>
+<p>ในไฟล์ <code>mock-data.ts</code> จะมีข้อมูลจำลองที่ถูกส่งกลับแทนการเรียก Database ในกรณีที่ <code>isDemoMode()</code> เป็น <code>true</code> เพื่อความรวดเร็วในการทดสอบระบบและลดภาระ Server</p>
 
 
 
@@ -666,10 +846,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
