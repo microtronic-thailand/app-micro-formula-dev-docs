@@ -1,6 +1,6 @@
-# MicroAccount Developer Documentation
+# MicroFormula Developer Documentation
 
-คู่มือสำหรับนักพัฒนาในการจัดการและพัฒนาต่อยอดระบบ MicroAccount
+คู่มือสำหรับนักพัฒนาในการจัดการและพัฒนาต่อยอดระบบ MicroFormula
 
 ## Tech Stack
 - **Frontend**: Next.js 15 (App Router)

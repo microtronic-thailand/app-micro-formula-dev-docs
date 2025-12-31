@@ -1,6 +1,6 @@
 # Database Schema
 
-MicroAccount ใช้โครงสร้างฐานข้อมูลที่มีความยืดหยุ่น รองรับการทำงานทั้งแบบ Cloud (Supabase) และ Local (Postgres)
+MicroFormula ใช้โครงสร้างฐานข้อมูลที่มีความยืดหยุ่น รองรับการทำงานทั้งแบบ Cloud (Supabase) และ Local (Postgres)
 
 ## ตารางหลักที่สำคัญ
 

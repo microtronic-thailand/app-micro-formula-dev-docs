@@ -1,6 +1,6 @@
 # Security & Audit Architecture
 
-ระบบ MicroAccount ออกแบบมาให้รองรับมาตรฐานความปลอดภัยและการตรวจสอบ (Compliance) โดยมีหัวใจหลักคือระบบ License และ Audit Trail
+ระบบ MicroFormula ออกแบบมาให้รองรับมาตรฐานความปลอดภัยและการตรวจสอบ (Compliance) โดยมีหัวใจหลักคือระบบ License และ Audit Trail
 
 ---
 
